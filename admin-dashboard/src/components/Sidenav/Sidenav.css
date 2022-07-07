@@ -1,0 +1,46 @@
+nav{
+    background-color: #363740;
+    display: block;
+    width: 150px;
+    min-height: 100vh;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    padding-left: 30px;
+    padding-top: 50px;
+    font-size: 12px;
+    position: fixed;
+    left: 0;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 20px;
+}
+.logo p{
+    font-size: 10px;
+    color: #A4A6B3;
+    font-weight: bolder;
+    padding-left: 10px;
+}
+.charts{
+    display: flex;
+    align-items: center;
+}
+.referrals{
+    display: flex;
+    align-items: center;
+}
+.downlines img{
+width:10px;
+}
+.downlines{
+    line-height: 20px;
+}
+.downlines p{
+    padding-left: 10px;
+    font-size: 8px;
+}
