@@ -23,43 +23,6 @@ const Charts = () => {
           <strong>64</strong>
         </div>
       </div>
-      {/* <div className="trends">
-        <div>
-          <div>
-            <p>Today's trends</p>
-            <span>as of 25 May 2019, 09:41 PM</span>
-            <div>
-              <p>Today</p>
-              <p>Yesterday</p>
-            </div>
-          </div>
-          <div>
-            <img src={IMAGES.Graph} alt="" />
-          </div>
-        </div>
-        <div className="analysis">
-          <div>
-            <p>Resolved</p>
-            <strong>49</strong>
-          </div>
-          <div className="active">
-            <p>Received</p>
-            <strong>426</strong>
-          </div>
-          <div>
-            <p>Average first response time</p>
-            <strong>33m</strong>
-          </div>
-          <div>
-            <p>Average response time</p>
-            <strong>3h 8m</strong>
-          </div>
-          <div>
-            <p>Resolution within SLA</p>
-            <strong>94%</strong>
-          </div>
-        </div>
-      </div> */}
       <div className="ffflex">
         <div className="trends">
           <div className="flxx">
@@ -99,7 +62,39 @@ const Charts = () => {
             <strong>94%</strong>
           </div>
         </div>
-      </div>
+          </div>
+          <br /> <br />
+          <div className='ticket'>
+              <div className='unresolved'>
+                  <div className='unsolved'>
+                      <div>
+                          <p>Unresolved tickets</p>
+                          <span>Group: Support</span>
+                      </div>
+                      <b>View <br />Details</b>
+                  </div>
+                  <div className='flex'>
+                      <p>Waiting on Feature Request</p>
+                      <b>4238</b>
+                  </div>
+                  <div className='flex'>
+                      <p>Awaiting Customer Response</p>
+                      <b>1005</b>
+                  </div>
+                  <div className='flex'>
+                      <p>Awaiting Developer Fix</p>
+                      <b>914</b>
+                  </div>
+                  <div className='flex'>
+                      <p>Pending</p>
+                      <b>281</b>
+                  </div>
+              </div>
+              <div className="tasks">
+
+              </div>
+
+          </div>
     </div>
   );
 };
