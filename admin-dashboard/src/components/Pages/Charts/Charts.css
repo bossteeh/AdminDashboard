@@ -128,6 +128,19 @@
 .unsolved b{
     color: #3751ff;
 }
+
+.unsolved div b{
+    color: black;
+}
+
+.unsolved div p{
+    font-size: 30px;
+    font-weight: bold;
+}
+.unsolved span{
+    color: #9FA2B4;
+}
+
 .unresolved .unsolved div {
   display: block;
 }

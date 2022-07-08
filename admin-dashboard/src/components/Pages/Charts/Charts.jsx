@@ -69,7 +69,7 @@ const Charts = () => {
                   <div className='unsolved'>
                       <div>
                           <p>Unresolved tickets</p>
-                          <span>Group: Support</span>
+                          <span>Group: <b>Support</b> </span>
                       </div>
                       <b>View <br />Details</b>
                   </div>
@@ -91,6 +91,13 @@ const Charts = () => {
                   </div>
               </div>
               <div className="tasks">
+              <div className='unsolved'>
+                      <div>
+                          <p>Tasks</p>
+                          <span>Today</span>
+                      </div>
+                      <b>View All</b>
+                  </div>
 
               </div>
 
